@@ -1,0 +1,19 @@
+/* selector */
+body{
+    background-color: #ffd4fd;
+}
+h1  {
+    /* propiedad : valor */
+       color: #f5b0e0fd;
+       background-color: #8b0e57;
+       text-align: center;
+    }
+
+p {
+    color: black;
+
+      }
+img {
+    width: 200px; /* Si se modifica el ancho o el alto, es proporcional la modificacion del tamaño de la imagen */
+    
+}

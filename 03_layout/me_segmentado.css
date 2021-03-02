@@ -1,0 +1,41 @@
+body{
+    background-color: #eea5ca;
+}
+h1{
+    color: #6d025f;
+    text-align: center;
+}
+nav{
+    background: #c5afe2;
+    color: #abdaf5;
+}
+
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+    color: rgb(95, 3, 46);
+}
+div{
+    text-align: center;
+}
+img{
+    width: 230px;
+    }
+
+.facebook-image{
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 3%;               
+    }
+
+.instagram-image{
+    text-align: center;
+    width: 3%;
+    }
+
+
+

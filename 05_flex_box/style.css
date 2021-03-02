@@ -1,0 +1,26 @@
+.padre {
+    /* Indica como se van a mover o comportar los elementos de su contenido */
+    border: black 3px solid;
+    height: 500px;
+    display: flex;
+    /* Flexbox: Junta las propiedades de los dos display y permite acomodar elementos de forma simetrica mas sencillo y 
+    responde a la pantalla que lo está viendo (responsive) */
+    justify-content: center;
+    /* Justify: Acomoda elementos horizontalmente */
+    align-items: center;
+    /* Align: Acomoda elementos verticalmente */
+    flex-direction: column;
+    /* flex: Acomoda el contenido a manera de columnas */
+}
+
+.hijo {
+    border: #fa77b4 3px solid;
+    height: 100px;
+    width: 100px;
+}
+
+.hijo2 {
+    border: #0c968f 3px solid;
+    height: 100px;
+    width: 100px;
+}

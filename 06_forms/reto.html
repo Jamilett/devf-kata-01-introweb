@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reto.css">
+    <title>Receta</title>
+</head>
+
+<body>
+    <h1>Arma tu pizza</h1>
+    <form>
+        <p>Selecciona tipo de masa:</p>
+        <br>
+        <div id="masa">
+            <span> Masa tradicional hecha a mano al momento </span>
+            <input type="radio" name="masa" id="">
+
+            <span> Masa dorada al sartén, con mantequilla y dos capas de quesos </span>
+            <input type="radio" name="masa" id="">
+
+            <span> Orilla rellena de Queso </span>
+            <input type="radio" name="masa" id="">
+
+            <span> Crunchy, masa delgada y crujiente</span>
+            <input type="radio" name="masa" id="">
+        </div>
+
+        <p>Elige el tamaño:</p>
+        <div>
+            <input placeholder="Tamaños" type="text" list="browsers" />
+            <datalist id="browsers">
+                <option>Grande</option>
+                <option>Mediana</option>
+                <option>Pequeña</option>
+            </datalist>
+        </div>
+        <br>
+        <label for="salsa">Elige tu salsa</label>
+        <select name="salsa" id="salsa">
+            <option value="tradicional">Tradicional</option>
+            <option value="especial">Especial</option>
+        </select>
+        <div>
+            <p>Selecciona los Ingredientes:</p>
+            <span> Jamón </span>
+            <input type="checkbox" name="" id="">
+            <span> Tocino </span>
+            <input type="checkbox" name="" id="">
+            <span> Salami </span>
+            <input type="checkbox" name="" id="">
+            <span> Piña </span>
+            <input type="checkbox" name="" id="">
+            <span> Chorizo </span>
+            <input type="checkbox" name="" id="">
+
+        </div>
+        <p>Solicitud adicional:</p>
+        <div>
+            <textarea placeholder="Tu Solicitud AQUÍ" name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <p>Selecciona fecha de entrega:</p>
+        <div>
+            <input type="date" name="" id="">
+        </div>
+        <p></p>
+        <input type="submit" value="Enviar">
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+</body>
+
+</html>

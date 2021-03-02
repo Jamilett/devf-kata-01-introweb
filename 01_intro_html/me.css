@@ -1,0 +1,32 @@
+body{
+    background-color: #eea5ca;
+}
+h1{
+    color: #6d025f;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+    color: rgb(95, 3, 46);
+}
+div{
+    text-align: center;
+}
+img{
+    width: 250px;
+    }
+
+.some-style{
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    position: left;
+    width: 3%;               
+    }
+
+.instagram-image{
+    width: 3%;
+    }

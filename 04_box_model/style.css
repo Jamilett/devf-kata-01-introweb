@@ -1,0 +1,50 @@
+/*
+display: block -> No te permite poner un elemento a lado
+                 Te permite modificar el ancho y la altura
+display: inline -> Te permite tener elementos a lado
+                No te permite modificar el ancho y la altura
+display: inline-block -> Te permite tener elementos a lado
+                Te permite modificar el ancho y la altura
+*/
+
+h1{ 
+    display: inline-block;   
+    border: black 2px solid;
+    width: 250px;
+    height: 100px;
+    /* margin: es el espacio del borde hacia afuera; */
+    margin-left: 150px;
+    margin-top: 150px;
+    margin-right: 150px;
+    margin-bottom: 150px;
+    /* padding: es el espacio del borde hacia adentro, la etiqueta se hará más grande; */
+    padding-left: 20px;
+}
+
+p{    
+    display: inline-block;
+    border: red 2px solid;
+    width: 150px;
+    height: 80px;
+    /*  Eje:  y     x */
+    margin: 100px 200px;
+}
+
+h2{
+    border: cornflowerblue 2px solid;
+    /*      Top Right Bottom Left : Sentido de las manecillas del reloj*/
+    margin: 20px 100px 50px 80px;
+}
+
+a{
+    border: blue 2px solid;
+    width: 500px;
+    height: 200px;
+    /*Aplica a todos los lados*/
+    margin: 20px;
+}
+
+div{
+    border: rgb(111, 18, 119) 2px solid;
+    margin-left: 700px;
+}
